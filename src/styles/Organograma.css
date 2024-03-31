@@ -1,0 +1,91 @@
+/* Organograma.css */
+
+/* HEADER */
+header {
+    background-color: #0167d3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#cabecalho {
+    border: 2px solid #0167d3;
+    box-shadow: 0 0 2px #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#navigator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#navigator li {
+    margin-right: 10px;
+}
+
+#navigator a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#organograma img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+/* Chatbot */
+
+#chatbot-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#chatbot-container h1 {
+    font-size: 24px;
+}
+
+#chatbot-container p {
+    font-size: 16px;
+    margin-top: 20px;
+}
