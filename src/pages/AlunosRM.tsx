@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/AlunosRM.css';
+import img3 from '../assets/img3.png';
+import img4 from '../assets/img4.png';
 
 //Página com os dados dos autores do grupo
 
@@ -31,12 +33,12 @@ const AlunosRM: React.FC = () => {
                     </div>
                     <div className="card-container">
                         <div className="card">
-                            <img src="img/img1.png" alt="Imagem 1" />
+                        <img src={img3} alt="Imagem 2" />
                             <h2>Clara de Fonte Almeida</h2>
                             <p>RM554321</p>
                         </div>
                         <div className="card">
-                            <img src="img/img1.png" alt="Imagem 1" />
+                        <img src={img4} alt="Imagem 2" />
                             <h2>Nicolas Paiffer do Carmo</h2>
                             <p>RM554145</p>
                         </div>

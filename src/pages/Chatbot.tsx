@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Chatbot.css';
 import Header from '../components/Header';
-
+// Pagina chatbot
 const Chatbot: React.FC = () => {
     return (
         <div>
