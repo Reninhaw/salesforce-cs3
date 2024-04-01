@@ -1,25 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/TesteAB.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 // Pagina TesteAB
 const TesteAB: React.FC = () => {
     return (
         <div>
-            <header>
-                <h1>Salesforce</h1>
-                <div id="cabecalho">
-                    <div id="navigator">
-                        <ul>
-                            <li><Link to="/">Página Inicial</Link></li>
-                            <li><Link to="/testeab">Testes A/B</Link></li>
-                            <li><Link to="/cadastro">Cadastros</Link></li>
-                            <li><Link to="/chatbot">Chatbot</Link></li>
-                            <li><Link to="/alunosrm">Alunos-RM</Link></li>
-                            <li><Link to="/organograma">Organograma</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
+            <Header/>
 
             <main>
                 <h1>Aqui ficará o projeto dos nossos Testes A/B!</h1>

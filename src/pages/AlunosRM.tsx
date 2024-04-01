@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import '../styles/AlunosRM.css';
 import img3 from '../assets/img3.png';
 import img4 from '../assets/img4.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 //Página com os dados dos autores do grupo
 
