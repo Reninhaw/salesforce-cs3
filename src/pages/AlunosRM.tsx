@@ -34,15 +34,7 @@ const AlunosRM: React.FC = () => {
                 </div>
             </main>
 
-            <footer>
-                <div className="footer-content">
-                    <p>© Oiii</p>
-                    <ul>
-                        <li><a href="#">Termos de Serviço</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                    </ul>
-                </div>
-            </footer>
+            <Footer/>
         </div>
     );
 }

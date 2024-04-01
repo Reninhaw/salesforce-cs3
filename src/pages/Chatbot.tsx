@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Chatbot.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 // Pagina chatbot
 const Chatbot: React.FC = () => {
     return (
@@ -14,15 +15,7 @@ const Chatbot: React.FC = () => {
                     <p>Este é um exemplo de componente de chatbot.</p>
                 </div>
             </main>
-            <footer>
-                <div className="footer-content">
-                    <p>© Oiii</p>
-                    <ul>
-                        <li><a href="#">Termos de Serviço</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                    </ul>
-                </div>
-            </footer>
+            <Footer/>
         </div>
     );
 }
