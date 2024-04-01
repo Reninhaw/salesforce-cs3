@@ -11,21 +11,7 @@ import Footer from '../components/Footer';
 const AlunosRM: React.FC = () => {
     return (
         <div>
-            <header>
-                <h1>Salesforce</h1>
-                <div id="cabecalho">
-                    <div id="navigator">
-                        <ul>
-                            <li><Link to="/">Página Inicial</Link></li>
-                            <li><Link to="/testeab">Testes A/B</Link></li>
-                            <li><Link to="/cadastro">Cadastros</Link></li>
-                            <li><Link to="/chatbot">Chatbot</Link></li>
-                            <li><Link to="/rm">Alunos-RM</Link></li>
-                            <li><Link to="/organograma">Organograma</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
+            <Header/>
 
             <main>
                 <div className="container">
