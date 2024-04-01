@@ -11,7 +11,6 @@ const Chatbot: React.FC = () => {
             <main>
                 <h1>Nosso Chatbot</h1>
                 <div id="chatbot-container">
-                    {/* Aqui você pode adicionar o código para o chatbot */}
                     <p>Este é um exemplo de componente de chatbot.</p>
                 </div>
             </main>
