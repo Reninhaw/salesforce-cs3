@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css';
 
-
+//componente responsável pela renderização do footer na tela
 const Footer: React.FC = () => {
     return (
         <footer>
