@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Cadastro.css';
 import Header from '../components/Header';
-
+// Página cadastro
 const Cadastro: React.FC = () => {
     return (
         <div>
