@@ -6,6 +6,9 @@ import Chatbot from './pages/Chatbot';
 import AlunosRM from './pages/AlunosRM';
 import Organograma from './pages/Organograma';
 
+
+//criação das rotas das páginas
+
 const router = createBrowserRouter([
   {
     path:"/",

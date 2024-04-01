@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/AlunosRM.css';
 
+//Página com os dados dos autores do grupo
+
 const AlunosRM: React.FC = () => {
     return (
         <div>

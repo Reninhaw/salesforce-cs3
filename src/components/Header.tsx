@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Header.css';
 import { Link } from 'react-router-dom';
 
-
+//componente responsável pela renderização do header e do menu na tela
 const Header: React.FC = () => {
     return (
         <header>
