@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     return (
         <footer>
             <div className="footer-content">
-                <p>© Oiii</p>
+                <p>© Salesforce</p>
                 <ul>
                     <li><a href="#">Termos de Serviço</a></li>
                     <li><a href="#">Política de Privacidade</a></li>
